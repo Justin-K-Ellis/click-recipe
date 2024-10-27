@@ -1,7 +1,7 @@
 import { createBrowserRouter } from "react-router-dom";
 
 import App from "./App";
-import Card from "./components/Card";
+import Container from "./components/Container";
 
 const router = createBrowserRouter([
   {
@@ -10,7 +10,7 @@ const router = createBrowserRouter([
     children: [
       {
         index: true,
-        element: <Card />,
+        element: <Container />,
       },
     ],
   },
