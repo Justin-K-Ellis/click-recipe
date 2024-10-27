@@ -1,7 +1,11 @@
+import Layout from "./layouts/Layout";
+
 function App() {
     return (
         <>
-            <p>Clik Recipe</p>
+            <Layout>
+                <p>Test</p>
+            </Layout>
         </>
     )
 }
